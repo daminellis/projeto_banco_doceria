@@ -15,7 +15,7 @@ Gabriel Morona - M0rona<br>
 Utilizamos a ferramenta de modelagem de dados [dbdiagram.io](https://dbdiagram.io/) para criação do modelo físico do banco de dados, para posterior exportação dos scripts DDL das tabelas e relacionamentos.<br>
 Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/6561325e3be1495787b1c71a).<br>
 
-![image](https://github.com/jlsilva01/projeto_final_bd2_satc_2023/assets/484662/1fefa9fd-868c-4209-8cc5-d32cd73fa46d)
+![image](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/31c3a374-c607-4f44-ad2c-f13807bd04a2)
   
 ### Dicionário de Dados
 As informações sobre as tabelas e índices foram documentados na planilha [template1.xlsx](dicionario_dados/template1.xlsx).
