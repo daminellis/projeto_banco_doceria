@@ -3,17 +3,17 @@
 # SugarByte Database
 
 ### Integrantes
-Matheus Daminelli - @daminellis<br>
-Matheus Gastaldi -  Matheus2037<br>
-Lucas Silva -  Lorrust<br>
-João Carlos - Churima<br>
-Jean Guichard - Guichardx2<br>
-Gabriel Morona - M0rona<br>
+[Matheus Daminelli](https://github.com/daminellis)<br>
+[Matheus Gastaldi](https://github.com/Matheus2037)<br>
+[Lucas Silva](https://github.com/Lorrust)
+[João Carlos](https://github.com/Churima)<br>
+[Jean Guichard](https://github.com/Guichardx2)<br>
+[Gabriel Morona](https://github.com/M0rona)<br>
 ...
 
 ### Modelo Físico
 Utilizamos a ferramenta de modelagem de dados [dbdiagram.io](https://dbdiagram.io/) para criação do modelo físico do banco de dados, para posterior exportação dos scripts DDL das tabelas e relacionamentos.<br>
-Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/6561325e3be1495787b1c71a).<br>
+Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551be6bdd9ad).<br>
 
 ![image](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/31c3a374-c607-4f44-ad2c-f13807bd04a2)
   
