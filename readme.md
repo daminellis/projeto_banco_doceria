@@ -25,9 +25,9 @@ Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.micro
 Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
 
 Abaixo, segue os scripts SQL separados por tipo:
-+ DDL [ddl.sql](scripts_sql/ddl.sql)
-+ Índices [indices.sql](scripts_sql/indices.sql)
-+ DML [dml.sql](scripts_sql/dml.sql)
++ DDL [ddl.sql](DDLDOCERIA.sql)
++ Índices [indices.sql](cripts_sql/indice.sql)
++ DML [dml.sql](DMLDOCERIA.sql)
 + Triggers [triggers.sql](scripts_sql/triggers.sql)
 + Stored Procedures [stored_procedures.sql](scripts_sql/stored_procedures.sql)
 + Functions [functions.sql](scripts_sql/functions.sql)
