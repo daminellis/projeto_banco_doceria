@@ -33,8 +33,8 @@ Abaixo, segue os scripts SQL separados por tipo:
 + Functions [functions.sql](scripts_sql/functions.sql)
 
 ### Código Fonte do CRUD
-- Linguagem de Programação C# .NET.<br>
-- Framework .NET 4.6
+- Linguagem de Programação: Python <br>
+- Framework PostgreeSQL
 - Projeto Windows Forms
 - Biblioteca Entity Framework para SQL Server (nativo)
 
