@@ -49,3 +49,18 @@ def update_produto(produto_id: int, produto: schemas.ProdutoUpdate):
     cursor.close()
     conn.close()
     return updated_produto
+
+def create_produto(produto: schemas.ProdutoCreate):
+    conn = get_connection()
+    cursor = get_cursor(conn)
+    query = """
+        INSERT INTO produto (nome, descricao, preco, perc_deconto, disp)
+        VALUES (%s, %s, %s, %s, %s)
+        RETURNING produto_id, nome, descricao, preco, perc_deconto, disp
+    """
+    cursor.execute(query, (produto.nome, produto.descricao, produto.preco, produto.perc_deconto, produto.disp))
+    conn.commit()
+    result = cursor.fetchone()
+    cursor.close()
+    conn.close()
+    return result
