@@ -26,3 +26,13 @@ def delete_produto(produto_id: int):
     if db_produto is None:
         raise HTTPException(status_code=404, detail="Produto não encontrado")
     return crud.delete_produto(produto_id=produto_id)
+
+@app.put("/produtos/{produto_id}", response_model=schemas.Produto)
+def update_produto(produto_id: int, produto: schemas.ProdutoUpdate):
+    db_produto = crud.get_produto(produto_id=produto_id)
+    if db_produto is None:
+        raise HTTPException(status_code=404, detail="Produto não encontrado")
+    updated_produto = crud.update_produto(produto_id=produto_id, produto=produto)
+    if updated_produto is None:
+        raise HTTPException(status_code=404, detail="Erro ao atualizar o produto")
+    return updated_produto
