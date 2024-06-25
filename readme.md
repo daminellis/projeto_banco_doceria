@@ -24,12 +24,12 @@ Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.micro
 Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
 
 Abaixo, segue os scripts SQL separados por tipo:
-+ DDL [ddl.sql](scripts/DDLDOCERIA.sql)
-+ Índices [indices.sql](cripts_sql/indice.sql)
-+ DML [dml.sql](scripts/DMLDOCERIA.sql)
-+ Triggers [triggers.sql](scripts/Trigger.sql)
-+ Stored Procedures [stored_procedures.sql](scripts_sql/stored_procedures.sql)
-+ Functions [functions.sql](scripts/function.sql)
++ [DDL](scripts/DDLDOCERIA.sql)
++ [Índices](cripts_sql/indice.sql)
++ [DML](scripts/DMLDOCERIA.sql)
++ [Triggers](scripts/Trigger.sql)
++ [Stored Procedures](scripts_sql/stored_procedures.sql)
++ [Functions](scripts/function.sql)
 
 ### Código Fonte do CRUD
 - Linguagem de Programação: Python <br>
