@@ -27,9 +27,9 @@ Abaixo, segue os scripts SQL separados por tipo:
 + DDL [ddl.sql](scripts/DDLDOCERIA.sql)
 + Índices [indices.sql](cripts_sql/indice.sql)
 + DML [dml.sql](scripts/DMLDOCERIA.sql)
-+ Triggers [triggers.sql](scripts_sql/triggers.sql)
++ Triggers [triggers.sql](scripts/trigger.sql)
 + Stored Procedures [stored_procedures.sql](scripts_sql/stored_procedures.sql)
-+ Functions [functions.sql](scripts_sql/functions.sql)
++ Functions [functions.sql](scripts/function.sql)
 
 ### Código Fonte do CRUD
 - Linguagem de Programação: Python <br>
