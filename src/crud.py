@@ -64,3 +64,26 @@ def create_produto(produto: schemas.ProdutoCreate):
     cursor.close()
     conn.close()
     return result
+
+def delete_produto(produto_id: int):
+    conn = get_connection()
+    cursor = get_cursor(conn)
+    produto_info = None
+
+    try:
+        cursor.execute("SELECT produto_id, nome FROM produto WHERE produto_id = %s", (produto_id,))
+        produto_info = cursor.fetchone()
+
+        if produto_info:
+            query = "DELETE FROM produto WHERE produto_id = %s"
+            cursor.execute(query, (produto_id,))
+            conn.commit()
+        else:
+            return f'Produto com ID {produto_id} não encontrado.'     
+    except Exception as e:
+        conn.rollback()
+        raise e  
+    finally:
+        cursor.close()
+        conn.close()
+    return produto_info
