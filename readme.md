@@ -28,7 +28,7 @@ Abaixo, segue os scripts SQL separados por tipo:
 + [Índices](cripts_sql/indice.sql)
 + [DML](scripts/DMLDOCERIA.sql)
 + [Triggers](scripts/Trigger.sql)
-+ [Stored Procedures](scripts_sql/stored_procedures.sql)
++ [Stored Procedures](scripts/procedure.sql)
 + [Functions](scripts/function.sql)
 
 ### Código Fonte do CRUD
