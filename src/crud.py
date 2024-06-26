@@ -71,6 +71,10 @@ def delete_produto(produto_id: int):
     produto_info = None
 
     try:
+        cursor.execute("SELECT 1 FROM pedido WHERE produto_id = %s LIMIT 1", (produto_id,))
+        if cursor.fetchone():
+            raise ValueError(f"Erro: Impossível excluir produto {produto_id}. Produto está em uso em um pedido.")
+
         cursor.execute("SELECT produto_id, nome FROM produto WHERE produto_id = %s", (produto_id,))
         produto_info = cursor.fetchone()
 
@@ -78,12 +82,14 @@ def delete_produto(produto_id: int):
             query = "DELETE FROM produto WHERE produto_id = %s"
             cursor.execute(query, (produto_id,))
             conn.commit()
+            return f'Produto com ID {produto_id} deletado com sucesso.'
         else:
-            return f'Produto com ID {produto_id} não encontrado.'     
+            return f'Produto com ID {produto_id} não encontrado.'
+
     except Exception as e:
         conn.rollback()
-        raise e  
+        raise e
+
     finally:
         cursor.close()
         conn.close()
-    return produto_info
