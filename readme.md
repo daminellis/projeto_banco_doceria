@@ -20,8 +20,8 @@ Arquivo Fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551b
 As informações sobre as tabelas e índices foram documentados na planilha [dicionario_dados.xlsx](dicionario_dados).
 
 ### Scripts SQL
-Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.microsoft.com/pt-br/products/azure-sql/database) <br>
-Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL Azure serverless no Azure gratuito - Sem cartão de crédito](https://github.com/jlsilva01/sql-azure-satc).
+Para este projeto foi utilizado o banco de dados [PostgreSQL](https://www.postgresql.org/) <br>
+Para criar o banco de dados utilizamos a cloud do render [Web do render,possibilidade de facil criação de um banco PostgreeSQL](render.com).
 
 Abaixo, segue os scripts SQL separados por tipo:
 + [DDL](scripts/DDLDOCERIA.sql)
