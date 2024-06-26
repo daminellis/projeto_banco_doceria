@@ -25,7 +25,7 @@ Este é o procedimento para criação do banco de dados Azure SQL [Criando SQL A
 
 Abaixo, segue os scripts SQL separados por tipo:
 + [DDL](scripts/DDLDOCERIA.sql)
-+ [Índices](cripts_sql/indice.sql)
++ [Índices](scripts/indice.sql)
 + [DML](scripts/DMLDOCERIA.sql)
 + [Triggers](scripts/Trigger.sql)
 + [Stored Procedures](scripts/procedure.sql)
