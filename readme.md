@@ -12,7 +12,7 @@
 
 ### Modelo Físico
 Utilizamos a ferramenta de modelagem de dados [dbdiagram.io](https://dbdiagram.io/) para criação do modelo físico do banco de dados, para posterior exportação dos scripts DDL das tabelas e relacionamentos.<br>
-Arquivo fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551be6bdd9ad).<br>
+Arquivo Fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551be6bdd9ad).<br>
 
 ![image](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/31c3a374-c607-4f44-ad2c-f13807bd04a2)
   
@@ -33,11 +33,12 @@ Abaixo, segue os scripts SQL separados por tipo:
 
 ### Código Fonte do CRUD
 - Linguagem de Programação: Python <br>
-- Framework PostgresSQL
-- Projeto Windows Forms
-- Biblioteca Entity Framework para SQL Server (nativo)
+- Framework: FastAPI <br>
+- Bibliotecas: Pydantic, psycopg2, SQLAlchemy <br>
+- Servidor ASGI: Uvicorn <br>
+- Banco de Dados: PostgresSQL
 
-[Codigo Fonte](fonte/)
+[Codigo Fonte](src/)
 
 ### Relatório Final
-O relatório final está disponível no arquivo [template1.docx](relatorio/template1.docx).
+O relatório final está disponível no arquivo [Relatorio.pdf](docs/Relatorio.pdf).
