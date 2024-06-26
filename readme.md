@@ -17,7 +17,7 @@ Arquivo Fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551b
 ![SugarByte](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/4f549614-ce15-44c9-99ca-a6a8b4c5ce98)
   
 ### Dicionário de Dados
-As informações sobre as tabelas e índices foram documentados na planilha [template1.xlsx](dicionario_dados).
+As informações sobre as tabelas e índices foram documentados na planilha [dicionario_dados.xlsx](dicionario_dados).
 
 ### Scripts SQL
 Para este projeto foi utilizado o banco de dados [Azure SQL](https://azure.microsoft.com/pt-br/products/azure-sql/database) <br>
