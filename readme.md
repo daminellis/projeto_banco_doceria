@@ -14,7 +14,7 @@
 Utilizamos a ferramenta de modelagem de dados [dbdiagram.io](https://dbdiagram.io/) para criação do modelo físico do banco de dados, para posterior exportação dos scripts DDL das tabelas e relacionamentos.<br>
 Arquivo Fonte: [Modelo Fisico](https://dbdiagram.io/d/SugarByte-666a286ba179551be6bdd9ad).<br>
 
-![image](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/31c3a374-c607-4f44-ad2c-f13807bd04a2)
+![SugarByte](https://github.com/daminellis/projeto_banco_doceria/assets/91230559/4f549614-ce15-44c9-99ca-a6a8b4c5ce98)
   
 ### Dicionário de Dados
 As informações sobre as tabelas e índices foram documentados na planilha [template1.xlsx](dicionario_dados/template1.xlsx).
